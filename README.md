@@ -1,65 +1,102 @@
-# Pixar Films Analysis / Análise de Filmes da Pixar
+# 🎬 Pixar Films Analysis | Análise de Filmes da Pixar
 
-## Overview / Visão Geral
-This project provides an in-depth analysis of Pixar's filmography, focusing on key metrics such as movie ratings, genres, directors, box office performance, critical reviews, and awards. The data is extracted from the repository [erictleung/pixarfilms](https://github.com/erictleung/pixarfilms) and analyzed using Excel to derive insights.
+## 📌 Overview | Visão Geral
 
-Este projeto fornece uma análise detalhada da filmografia da Pixar, com foco em métricas-chave como classificações de filmes, gêneros, diretores, desempenho nas bilheteiras, críticas e prêmios. Os dados foram extraídos do repositório [erictleung/pixarfilms](https://github.com/erictleung/pixarfilms) e analisados utilizando o Excel para gerar insights.
+**EN:**  
+This project offers a deep dive into Pixar’s filmography — analyzing trends in genres, ratings, reviews, profitability, and awards. Built entirely in **Excel**, it features dynamic dashboards and pivot tables for interactive exploration.  
+> 📂 Data source: [erictleung/pixarfilms](https://github.com/erictleung/pixarfilms)
 
----
-
-## Key Insights / Principais Insights
-- **Number of movies released by Pixar / Número de filmes lançados pela Pixar**: 28
-- **Average movie duration / Duração média dos filmes**: 100.39 minutes
-- **Most frequent director / Diretor mais frequente**: John Lasseter
-- **Total production budget / Orçamento total de produção**: $4,351,000,000
-- **Most profitable film / Filme mais lucrativo**: Inside Out 2 - $1,498,030,965
-- **Movies with negative profit / Filmes com lucro negativo**: 3
-- **Most awarded film / Filme mais premiado**: Coco, Soul, The Incredibles, Toy Story 3, Up
+**PT:**  
+Este projeto é uma imersão na filmografia da Pixar — analisando tendências de gênero, classificação, críticas, rentabilidade e premiações. Criado inteiramente no **Excel**, conta com dashboards dinâmicos e tabelas-pivot para facilitar a exploração dos dados.  
+> 📂 Fonte dos dados: [erictleung/pixarfilms](https://github.com/erictleung/pixarfilms)
 
 ---
 
-## Data Analysis / Análise de Dados
-The analysis includes the following key points:
-1. **Movie Ratings Distribution** / Distribuição das Classificações de Filmes
-2. **Genre Analysis** / Análise de Gêneros
-3. **Director and Actor Analysis** / Análise de Diretores e Atores
-4. **Box Office Performance** / Desempenho nas Bilheteiras
-5. **Profit Margins** / Margens de Lucro
-6. **Critical and Audience Reviews Correlation** / Correlação entre Críticas e Avaliações do Público
-7. **Awards and Nominations** / Premiações e Nomeações
+## 🔍 Key Insights | Principais Insights
 
-A análise inclui os seguintes pontos principais:
-1. **Distribuição das Classificações de Filmes**
-2. **Análise de Gêneros**
-3. **Análise de Diretores e Atores**
-4. **Desempenho nas Bilheteiras**
-5. **Margens de Lucro**
-6. **Correlação entre Críticas e Avaliações do Público**
-7. **Premiações e Nomeações**
+| 💡 Insight                                  | Result / Resultado                    |
+|--------------------------------------------|----------------------------------------|
+| 🎥 Total films released / Total de filmes  | 28                                     |
+| ⏱️ Average duration / Duração média        | 100.39 minutes                         |
+| 🎬 Most frequent director / Diretor + freq. | John Lasseter                          |
+| 💰 Total budget / Orçamento total           | $4.35 billion                          |
+| 🌎 Worldwide box office / Bilheteira mundial| $17.04 billion                         |
+| 💸 Total profit / Lucro total               | $12.64 billion                         |
+| 🏆 Most awarded films / Filmes + premiados | Coco, Soul, The Incredibles, Toy Story 3, Up |
+| 🚨 Negative profit films / Filmes c/ prejuízo | 3                                  |
 
 ---
 
-## Tools Used / Ferramentas Utilizadas
-- **Excel**: For data cleaning, analysis, and pivot tables / Para limpeza de dados, análise e tabelas dinâmicas
-- **GitHub**: To version control and share the project / Para controle de versão e compartilhamento do projeto
+## ⭐ Ratings & Reviews | Notas e Avaliações
+
+| 📊 Metric / Métrica                  | Score / Nota         |
+|-------------------------------------|----------------------|
+| 🍅 Rotten Tomatoes Avg              | 88.35%               |
+| 🎯 Metacritic Avg                  | 78.14                |
+| 🎥 IMDb Avg                        | 7.5                  |
+| 🔗 RT ↔ IMDb Correlation           | 0.609 (moderate)     |
+| 🔗 Metacritic ↔ IMDb Correlation   | 0.657 (moderate)     |
 
 ---
 
-## How to Run / Como Executar
-Since this project is built using Excel, you can simply download the `Pixar_Films_Analysis.xlsx` file and open it with Microsoft Excel or any compatible software.
+## 🏆 Awards Summary | Resumo de Premiações
 
-Como este projeto foi construído utilizando o Excel, basta fazer o download do arquivo `Pixar_Films_Analysis.xlsx` e abri-lo no Microsoft Excel ou em qualquer software compatível.
-
----
-
-## License / Licença
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
+- 🎖️ **Total awards won / Total de prêmios ganhos**: 9  
+- 🥇 **Most nominated film / Mais nomeado**: *WALL-E*  
+- 🏅 **Top winners / Mais premiados**:  
+  `Coco`, `Soul`, `The Incredibles`, `Toy Story 3`, `Up` (2 awards each)
 
 ---
 
-## Contribution / Contribuição
-Feel free to fork this project, open issues, or submit pull requests if you'd like to contribute!
+## 📊 Analysis Highlights | Principais Análises
 
-Sinta-se à vontade para fazer um fork deste projeto, abrir issues ou enviar pull requests se quiser contribuir!
+✅ Ratings distribution (G vs PG)  
+✅ Genre & Subgenre breakdown  
+✅ Directors with most films  
+✅ Box office vs production cost  
+✅ Profit margins  
+✅ Critic x Audience alignment  
+✅ Award-winning patterns  
+
+---
+
+## 🛠 Tools Used | Ferramentas Utilizadas
+
+| Tool / Ferramenta | Purpose / Função                      |
+|-------------------|----------------------------------------|
+| 📗 Microsoft Excel| Data cleaning, analysis, dashboards    |
+| 🐙 GitHub         | Versioning and project sharing         |
+
+---
+
+## ▶️ How to Use | Como Utilizar
+
+1. Download the file: `Pixar_Films_Analysis.xlsx`  
+2. Open in **Microsoft Excel** (or compatible software)  
+3. Explore the **dashboards**, **pivot tables**, and **insights**
+
+---
+
+## 📄 License | Licença
+
+This project is under the [MIT License](LICENSE).  
+Este projeto está sob a [Licença MIT](LICENSE).
+
+---
+
+## 🤝 Contribution | Contribuição
+
+Want to improve this project or reuse parts of it?  
+Sinta-se livre para contribuir com melhorias ou adaptar o projeto!
+
+- 💡 Fork it
+- 🐛 Open issues
+- 🔧 Submit pull requests
+
+---
+
+## 🔗 Let's Connect | Conecte-se comigo
+
+Made with ❤️ by **Claudenilson Junior**  
+
+[LinkedIn](https://www.linkedin.com/in/claudenilson-junior) • [Email](mailto:claudenilsonjunior2@gmail.com)
